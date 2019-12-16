@@ -490,7 +490,7 @@ function fileClosure(){
   headingNodes.forEach(function(node){
     link = createEl('a');
     icon = createEl('img');
-    icon.src = 'http://example.org/images/icons/link.svg';
+    icon.src = 'https://tgmendes.github.io/images/icons/link.svg';
     link.className = 'link';
     link.appendChild(icon);
     id = node.getAttribute('id');
